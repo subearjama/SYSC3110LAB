@@ -1,5 +1,6 @@
 import java.util.ArrayList;
 
+//AddressBook Class
 public class AddressBook {
     //contains a collection of BuddyInfo objects
     ArrayList<BuddyInfo> buddyObject = new ArrayList<BuddyInfo>();
