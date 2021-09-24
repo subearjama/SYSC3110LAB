@@ -6,7 +6,9 @@ public class AddressBook {
 
     //Provide an addBuddy() and a removeBuddy() method.
     public void addBuddy(BuddyInfo newBuddy){
-        this.buddyObject.add(newBuddy);
+        if(newBuddy != null){
+            this.buddyObject.add(newBuddy);
+        }
     }
 
     public void removeBuddy(BuddyInfo oldBuddy){
