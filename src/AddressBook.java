@@ -16,6 +16,16 @@ public class AddressBook {
         this.buddyObject.remove(oldBuddy);
     }
 
+    //my method checks if the buddylist is empty or not
+    public void checkBuddy(){
+        if (buddyObject != null){
+            System.out.println("there are BuddyIfo objects in the list");
+        }
+        else{
+            System.out.println("No BuddyIfo objects are in the list");
+        }
+    }
+
     public static void main(String[] args) {
         BuddyInfo buddy = new BuddyInfo("Tom","Carleton","613");
         AddressBook addressBook = new AddressBook();
